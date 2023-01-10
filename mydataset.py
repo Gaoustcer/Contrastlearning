@@ -1,5 +1,5 @@
 from torch.utils.data import Dataset
-
+import torch
 class pairdataset(Dataset):
     def __init__(self,images,labels) -> None:
         super(pairdataset,self).__init__()
